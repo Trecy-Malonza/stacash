@@ -1,0 +1,51 @@
+
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  .image-container img {
+    width: 300px;
+    height: auto;
+    transition: filter 0.5s ease; 
+  }
+  
+
+  .image-container.normal img {
+    filter: none;
+  }
+  
+  
+  .image-container.colored img {
+    filter: hue-rotate(180deg); 
+  }
+  
+ 
+  .service-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+
+  .service-icons img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  
+
+  .service-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+
+  h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  
